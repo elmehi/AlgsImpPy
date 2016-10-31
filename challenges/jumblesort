@@ -1,0 +1,17 @@
+#!/usr/bin/python
+import sys
+
+x = sys.argv[1:]
+n, s = []
+s = []
+
+for v in x:
+    if v.isdigit(): n.append(int(v))
+    else: s.append(v)
+
+n.sort()
+s.sort()
+
+for i, v in enumerate(x):
+    if v.isdigit(): print n.pop(0),
+    else: print s.pop(0), 

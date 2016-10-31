@@ -19,3 +19,6 @@ def last2(str):
         if str[i:i+2] == x: counter +=1
         print(str[i:i+2])
     return counter
+
+
+    

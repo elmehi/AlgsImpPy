@@ -1,0 +1,9 @@
+# without using pop or insert
+class myQueue:
+    def __init__(self, es = []):
+        self.es = list(es)
+    def put(self, e):
+        self.es.insert(e)
+    def 
+
+class priorityQueue
